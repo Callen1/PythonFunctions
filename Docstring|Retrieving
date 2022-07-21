@@ -37,3 +37,10 @@ def build_tooltip(function):
 print(build_tooltip(count_letter))
 print(build_tooltip(range))
 print(build_tooltip(print))
+
+-------------------------------------------------------------------------------------------
+
+      ''' This IDE is going to be an incredibly delightful experience for your users now! 
+      Notice how the count_letter.__doc__ version of the docstring had strange whitespace at the beginning of all but the first line. 
+      That's because the docstring is indented to line up visually when reading the code. 
+      But when we want to print the docstring, removing those leading spaces with inspect.getdoc() will look much better. '''
